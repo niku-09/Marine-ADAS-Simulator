@@ -58,22 +58,7 @@ HANDOFF_marine_adas.md   Development context and architecture notes
 README.md                This file
 ```
 
----
 
-## Dependencies
-
-| Package | Version | Notes |
-|---|---|---|
-| `numpy` | ≥ 1.21 | Required |
-| `matplotlib` | ≥ 3.5 | Required |
-| `scipy` | ≥ 1.7 | Optional — used for SLAM map Gaussian blur; degrades gracefully without it |
-
-Install:
-```bash
-pip install numpy matplotlib scipy
-```
-
----
 
 ## How to run
 
@@ -123,10 +108,4 @@ Animated bars for `x`, `y`, `θ`, `v` normalised to map/max values. Position err
 - IMU update uses a linear `H` matrix (valid approximation for small angular rates)
 - No loop closure in SLAM
 
----
 
-## Author
-
-Nikhil Mohan  
-B.Tech Mechatronics & Automation Engineering, VIT Chennai  
-[niku-09.github.io](https://niku-09.github.io) · [LinkedIn](https://linkedin.com/in/nikhil-mohan-nm0909)
